@@ -1,0 +1,981 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+		<script src="libs/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
+		<script src="script.js" language="JavaScript1.2"></script>
+		<title> Conqueror Game	</title>
+	</head>
+	<body>
+		<div id="fondo">
+			<img src="img/fondo.jpg" alt=""></img>
+		</div>
+		<div id="popup" style="display: none;">
+			<div class="content-popup">
+				<div class="close"><a href="#" id="close"><img src="img/close.png" width=30 height=30/></a></div>
+				<div>
+					<h2>Historia</h2>
+					<p>El mundo ha cambiado debido a un deseo de un sabelotodo, tú o como todo el mundo te conoce "Sabihondo". </p>
+					<p>Tu deseo consistia en que cualquier tipo de conflicto seria resuelto con el conocimiento, en este caso en forma de trivias.</p>
+					<p>Un paraiso para ti, ¿no? Pues no todo es como lo crees, porque si participas en 3 trivias y te equivocas aunque sea una vez en cada una, seras eliminado de la historia, pero si logras superar las 7 trivias continentales, lograras unificar el mundo y seras rigente de el mismo para que lo gobiernes con tu mente ilustre.</p>
+					<h2>Creditos</h2>
+					<p>Carlos Arturo Obregón Ravelo</p>
+				</div>
+			</div>
+		</div>
+		<div id="general">
+			<div class = 'KingdomH' align = 'center'>
+				Conqueror
+			</div>
+			<table align = 'center'>
+				<tr>
+					<th><button id="NJuego">Nuevo Juego</button></th>
+					<th><button id="Historia">Historia</button></th>
+					<th></th>
+				</tr>
+			</table>
+			<table id="contenido" align = 'center' style="display:none;">
+				<tr>
+					<th><canvas id="lienzo" width="900" height="500">
+						Navegador incompatible.
+					</canvas></th>
+					<th><div id="continentes" >
+						<table>
+							<tr>
+								<th><div id="pregunta">¿Cual sera el siguiente continente a conquistar?</div></th>
+							</tr>
+							<tr>
+								<th><button id="opc1">Asia</button></th>
+							</tr>
+							<tr>
+								<th><button id="opc2">Africa</button></th>
+							</tr>
+							<tr>
+								<th><button id="opc3">Antartida</button></th>
+							</tr>
+							<tr>
+								<th><button id="opc4">Europa</button></th>
+							</tr>
+							<tr>
+								<th><button id="opc5">Norteamerica</button></th>
+							</tr>
+							<tr>
+								<th><button id="opc6">Oceania</button></th>
+							</tr>
+							<tr>
+								<th><button id="opc7">Suramerica</button></th>
+							</tr>
+						</table>
+					</div></th>
+				</tr>
+			</table>
+		<div id="vidas" class='KingdomH' style="display: none;"> VIDAS</font></div>
+		<img id="flag" src="img/bandera.png" width="50" height="50" hidden/>
+		</div>
+		<!Lista de preguntas, con opciones y respuestas, ya que no se pudo cargar desde el XML>
+		<table id="preguntas" border=1 hidden>
+			<tbody>
+				<tr>
+					<td>¿en que año inicio la segunda guerra mundial?</td>
+					<td>1945</td>
+					<td>1940</td>
+					<td>1939</td>
+					<td>1928</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el lugar mas frio de la tierra?</td>
+					<td>Antartica</td>
+					<td>Antartida</td>
+					<td>Argentina</td>
+					<td>Canada</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el rio mas largo del mundo?</td>
+					<td>El Nilo</td>
+					<td>El Mississipi</td>
+					<td>El Amazonas</td>
+					<td>El Tiquicaca</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Quien pinto la ultima cena?</td>
+					<td>Da Vinci</td>
+					<td>Miguel Angel</td>
+					<td>Raphael</td>
+					<td>Van Gogh</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Que pais gano el mundial de futbol el año 2014?</td>
+					<td>Brasil</td>
+					<td>Alemania</td>
+					<td>Holanda</td>
+					<td>Argentina</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el oceano mas grande del mundo?</td>
+					<td>Atlantico</td>
+					<td>Artico</td>
+					<td>Antartico</td>
+					<td>Pacifico</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que año llegó cristobal colon a America?</td>
+					<td>1942</td>
+					<td>1249</td>
+					<td>1492</td>
+					<td>1429</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que año acabó la segunda guerra mundial?</td>
+					<td>1945</td>
+					<td>1940</td>
+					<td>1939</td>
+					<td>1928</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el idioma oficial de Estados Unidos?</td>
+					<td>Ingles</td>
+					<td>Español</td>
+					<td>Frances</td>
+					<td>No tiene un idioma oficial</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cuantos numeros primos de un digito hay?</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual de las siguientes obras NO escribio William Shakespeare?</td>
+					<td>El quijote de la mancha</td>
+					<td>Romeo y Julieta</td>
+					<td>Hamlet</td>
+					<td>Macbeth</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Quien tiene el album de musica mas vendido de toda la historia?</td>
+					<td>AC/DC</td>
+					<td>Michael Jackson</td>
+					<td>Elvis Presly</td>
+					<td>Bad Bunny</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es la capital de Croacia?</td>
+					<td>Munich</td>
+					<td>Bogota</td>
+					<td>Zagreb</td>
+					<td>Copenhague</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual es el metal mas caro del mundo?</td>
+					<td>Oro</td>
+					<td>Platino</td>
+					<td>Plata</td>
+					<td>Rodio</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el estadio del Real Madrid C.F.?</td>
+					<td>Camp Nou</td>
+					<td>Alianz Arena</td>
+					<td>Old Trafford</td>
+					<td>Santiago Bernabeu</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cuantos corazones tiene un pulpo?</td>
+					<td>3</td>
+					<td>8</td>
+					<td>1</td>
+					<td>12</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Quien es el Dios griego de la Guerra?</td>
+					<td>Zeus</td>
+					<td>Ares</td>
+					<td>Odin</td>
+					<td>Marte</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Quien escribio "el amor en los tiempos de colera"?</td>
+					<td>Julio Cortazar</td>
+					<td>Gabriel Garcia Marquez</td>
+					<td>Juan Rulfo</td>
+					<td>Pablo Neruda</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que año fue la caida del muro de Berlin?</td>
+					<td>1980</td>
+					<td>1990</td>
+					<td>1989</td>
+					<td>1979</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿segun la mitologia griega quien mata a Medusa?</td>
+					<td>Hercules</td>
+					<td>Perseo</td>
+					<td>Poseidon</td>
+					<td>Aquiles</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿En que libro Harry Potter Gana el torneo de los 3 magos?</td>
+					<td>la piedra filosofal</td>
+					<td>El principe mestizo</td>
+					<td>la orden del fenix</td>
+					<td>el caliz de fuego</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual de los siguientes animales pone huevos?</td>
+					<td>Rinoceronte</td>
+					<td>Ornitorrinco</td>
+					<td>Ballena</td>
+					<td>Delfin</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el apodo del actor Dwayne Jhonson?</td>
+					<td>La roca</td>
+					<td>La piedra</td>
+					<td>El macho</td>
+					<td>El mejor</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cuantos departamentos tiene Colombia?</td>
+					<td>32</td>
+					<td>56</td>
+					<td>29</td>
+					<td>42</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Quien es apodado "El Rey del Rock'n Roll"?</td>
+					<td>Elvis</td>
+					<td>Michael Jackson</td>
+					<td>Pele</td>
+					<td>Freddie Mercury</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en la serie de Netflix "Stranger Things" quew poderes tiene 11?</td>
+					<td>Telepatia</td>
+					<td>Super Fuerza</td>
+					<td>Telequinesis</td>
+					<td>Entriopia</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual de las siguientes peliculas</td>
+					<td> ganó el OScar a mejor pelicula en el año 2012?</td>
+					<td>Whiplash</td>
+					<td>The Artist</td>
+					<td>The Revenant</td>
+					<td>Dallas Buyers Club</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>¿Cual de estas series se Emitió primero?</td>
+					<td>Daredevil</td>
+					<td>Jessica Jones</td>
+					<td>Luke Cage</td>
+					<td>Iron Fist</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es considerada la pelicula que inició el universo cinematografico de marvel MCU?</td>
+					<td>Thor</td>
+					<td>Los Vengadores</td>
+					<td>Iron Man</td>
+					<td>Capitan America</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿quien es "The fastest man alive"?</td>
+					<td>Superman</td>
+					<td>El correcaminos</td>
+					<td>Quick Silver</td>
+					<td>Flash</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual de estas series es la mas larga?</td>
+					<td>Padres e hijos</td>
+					<td>Los Simpsons</td>
+					<td>Friends</td>
+					<td>Casados Con hijos</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Quien es el director de "Bastardos Sin Gloria"?</td>
+					<td>Gillermo del Toro</td>
+					<td>Steven Spielberg</td>
+					<td>Quentin Tarantino</td>
+					<td>Ben Afleck</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual de las siguientes NO es una produccion de HBO?</td>
+					<td>Juego de Tronos</td>
+					<td>Vikingos</td>
+					<td>Los Soprano</td>
+					<td>West World</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿por cual de las siguientes peliculas</td>
+					<td> Tom Hanks ganó un Oscar?</td>
+					<td>Salvando al soldado Ryan</td>
+					<td>Naufrago</td>
+					<td>Toy Story</td>
+					<td>Forrest Gump</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el estilo de natacion mas rapido?</td>
+					<td>Espalda</td>
+					<td>Pecho</td>
+					<td>Crol</td>
+					<td>Mariposa</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cuantos jugadores hay en un equipo de Rugby?</td>
+					<td>15</td>
+					<td>12</td>
+					<td>10</td>
+					<td>13</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que país se inventó el voleibol?</td>
+					<td>Rusia</td>
+					<td>Brasil</td>
+					<td>Francia</td>
+					<td>Estados Unidos</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual de los siguiente fue campeon de peso pesado de la UFC?</td>
+					<td>Bruce Leee</td>
+					<td>Brock Lesnar</td>
+					<td>Dave Bautista</td>
+					<td>Silvestre Stalone</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cuanto dura un partido de fútbol?</td>
+					<td>30 minutos</td>
+					<td>45 minutos</td>
+					<td>70 minutos</td>
+					<td>90 minutos</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que futbolista es conocido como "O Rei"?</td>
+					<td>Pele</td>
+					<td>Ronaldinho</td>
+					<td>Neymar</td>
+					<td>Messi</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿John Lennon fue cantante de que banda?</td>
+					<td>The Rolling Stones</td>
+					<td>The Smiths</td>
+					<td>The Beatles</td>
+					<td>The Eagles</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿quien es la mascota de Sega?</td>
+					<td>Mario</td>
+					<td>Ryu</td>
+					<td>Zelda</td>
+					<td>Sonic</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que pokemon es considerado el Dios de los pokemon?</td>
+					<td>Mew</td>
+					<td>Lugia</td>
+					<td>Pikachu</td>
+					<td>Arceus</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es la ciudad mas vieja de America Latina?</td>
+					<td>Caral</td>
+					<td>Cartagena</td>
+					<td>Arequipa</td>
+					<td>Valparaiso</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que pais naciò Hitler?</td>
+					<td>Alemania</td>
+					<td>Austria</td>
+					<td>Rusia</td>
+					<td>Inglaterra</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que se celebra el 8 de marzo?</td>
+					<td>dia del trabajo</td>
+					<td>dia de la mujer</td>
+					<td>dia de la madre</td>
+					<td>naviada</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en donde surgió la democracia?</td>
+					<td>Grecia</td>
+					<td>Roma</td>
+					<td>Italia</td>
+					<td>Mesopotamia</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿quien ganó el nobel de la paz en el 2007?</td>
+					<td>Alvaro Uribe</td>
+					<td>Juan Manuel Santos</td>
+					<td>Albert Einstein</td>
+					<td>Albert Gore</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que pais naciò el protestantismo</td>
+					<td>Inglaterra</td>
+					<td>Alemania</td>
+					<td>Estados Unidos</td>
+					<td>Francia</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Donde vivia Ana Frank?</td>
+					<td>Vienna</td>
+					<td>Berlin</td>
+					<td>Amsterdam</td>
+					<td>Paris</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que año llegó el hombre a la luna?</td>
+					<td>1968</td>
+					<td>1983</td>
+					<td>1954</td>
+					<td>1969</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que año se abrió el canal de Panama?</td>
+					<td>1914</td>
+					<td>1920</td>
+					<td>1889</td>
+					<td>1893</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que siglo acaba la edad media?</td>
+					<td>XIII</td>
+					<td>XIV</td>
+					<td>XV</td>
+					<td>XVI</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cuantos dias dura Hanukkah?</td>
+					<td>3</td>
+					<td>5</td>
+					<td>7</td>
+					<td>8</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que pais se encuentra la ciudad mas al sur del mundo?</td>
+					<td>Chile</td>
+					<td>Argentina</td>
+					<td>Sudafrica</td>
+					<td>Nueva Zalanda</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que pais esta el rio de los 7 colores?</td>
+					<td>Argentina</td>
+					<td>Venezuela</td>
+					<td>Colombia</td>
+					<td>Brasil</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Las islas Canarias reciben este nombre por?</td>
+					<td>Aves</td>
+					<td>Perros</td>
+					<td>Peces</td>
+					<td>el festival de Cannes</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que pais está la isla de Pascua?</td>
+					<td>Chile</td>
+					<td>Bolivia</td>
+					<td>Perú</td>
+					<td>Mexico</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual es el cervido de mayor tamaño?</td>
+					<td>ciervo</td>
+					<td>Corzo</td>
+					<td>Alce</td>
+					<td>ñu</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es la capital de Ecuador?</td>
+					<td>Lima</td>
+					<td>Buenos Aires</td>
+					<td>Guayaquil</td>
+					<td>Quito</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual de las siguientes enfermedades ataca al higado?</td>
+					<td>Diabetes</td>
+					<td>Artritis</td>
+					<td>Hepatitis</td>
+					<td>Glaucoma</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cuantas caras tiene un icosaedro?</td>
+					<td>20</td>
+					<td>10</td>
+					<td>30</td>
+					<td>40</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual es el hueso mas pequeño del cuerpo humano?</td>
+					<td>Femur</td>
+					<td>Estribo</td>
+					<td>Yunque</td>
+					<td>Falange</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que estudia la ictiologia?</td>
+					<td>Peces</td>
+					<td>Insectos</td>
+					<td>Rocas</td>
+					<td>Astros</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cuantos estomagos tiene una vaca?</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que tipo de mamifero es un conejo?</td>
+					<td>Roedor</td>
+					<td>Marsupial</td>
+					<td>Lagomorfo</td>
+					<td>Equino</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que son las enzimas?</td>
+					<td>células</td>
+					<td>Glucidos</td>
+					<td>Minerales</td>
+					<td>Proteinas</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual de los siguientes animales no produce un sonido?</td>
+					<td>gato</td>
+					<td>girafa</td>
+					<td>delfin</td>
+					<td>mapache</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el simbolo quimico del sodio?</td>
+					<td>Na</td>
+					<td>So</td>
+					<td>NA</td>
+					<td>oS</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual es el mineral mas duro del planeta?</td>
+					<td>Adamantio</td>
+					<td>Cuarzo</td>
+					<td>Diamante</td>
+					<td>Granito</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿de que tiene forma italia?</td>
+					<td>Gorro</td>
+					<td>Bota</td>
+					<td>Gallina</td>
+					<td>Estrella</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cuantos dientes de leche tenemos?</td>
+					<td>20</td>
+					<td>32</td>
+					<td>25</td>
+					<td>48</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿donde se celebra el Oktoberfest?</td>
+					<td>Colombia</td>
+					<td>Rusia</td>
+					<td>Algeria</td>
+					<td>Alemania</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Quien el autor de Mony Dick?</td>
+					<td>Herman Melville</td>
+					<td>Henry James</td>
+					<td>Charles Dickens</td>
+					<td>Henry Thoreau</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en el mundo de Harry Potter como se le llama a un mago que no puede hacer magia?</td>
+					<td>mundano</td>
+					<td>muggle</td>
+					<td>squib</td>
+					<td>inutil</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Quien compuso la cancion "Bohemian Rhapsody"?</td>
+					<td>Frank Sinatra</td>
+					<td>Jhon Lennon</td>
+					<td>David Bowie</td>
+					<td>Freddie Mercury</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual de las siguientes razas es inmortal?</td>
+					<td>los humanos</td>
+					<td>los elfos</td>
+					<td>los Hobbits</td>
+					<td>Los enanos</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cuantos capitulos tiene el coran?</td>
+					<td>114</td>
+					<td>120</td>
+					<td>100</td>
+					<td>124</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿quien escribio la novela "Maria"?</td>
+					<td>Gabriel Garcia Marquez</td>
+					<td>Jorge Isaacs</td>
+					<td>Pablo Neruda</td>
+					<td>Mario Vargas Llosa</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual de las siguientes no es una pelicula de stephen king?</td>
+					<td>La niebla</td>
+					<td>IT</td>
+					<td>Carrie</td>
+					<td>Psyco</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es considerado el peor videojuego de la historia?</td>
+					<td>call of dutty</td>
+					<td>minecraft</td>
+					<td>E.T</td>
+					<td>no man's sky</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Hachiko era?</td>
+					<td>Un Gato</td>
+					<td>Un Perro</td>
+					<td>Un Lobo</td>
+					<td>UN Leon</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que pais fue el primer campeon de la cupa del mundo?</td>
+					<td>Brasil</td>
+					<td>Argentina</td>
+					<td>Alemania</td>
+					<td>Uruguay</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual es la capital de Uruguay?</td>
+					<td>Montevideo</td>
+					<td>La Plata</td>
+					<td>Buenos Aires</td>
+					<td>Asuncion</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que deporte destacó Magic Jhonson?</td>
+					<td>baseball</td>
+					<td>basketball</td>
+					<td>fútbol</td>
+					<td>tennis</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿quien es considerado el mejor boxeador de la historia?</td>
+					<td>Floyd Mayweather</td>
+					<td>Rocky</td>
+					<td>Muhamed Ali</td>
+					<td>Homero Simpson</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cuantos tiempos tiene un partido de basketball?</td>
+					<td>4</td>
+					<td>3</td>
+					<td>2</td>
+					<td>1</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿donde está la Conchinchina?</td>
+					<td>China</td>
+					<td>Japon</td>
+					<td>Vietnam</td>
+					<td>Camboya</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual es el ingrediente psicoactivo de la marihuana?</td>
+					<td>LHC</td>
+					<td>THC</td>
+					<td>LCD</td>
+					<td>PHP</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cual de estos animales es responsable por mas personas muertas anualmente?</td>
+					<td>Tiburon</td>
+					<td>Leon</td>
+					<td>Vaca</td>
+					<td>Mosquito</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que significa procastinar?</td>
+					<td>predicar una religion</td>
+					<td>presumir logros</td>
+					<td>inventar datos</td>
+					<td>posponer actividades</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿en que año murió Steve Jobs?</td>
+					<td>2010</td>
+					<td>2011</td>
+					<td>2012</td>
+					<td>2013</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿quien es considerado el padre del Heavy Metal?</td>
+					<td>Jhon Lennon</td>
+					<td>Elvis Presly</td>
+					<td>Ozzy Osbourne</td>
+					<td>LEmmy Kilmister</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿quien hizo la cancion del mundial 2010?</td>
+					<td>Shakira</td>
+					<td>Jennifer Lopez</td>
+					<td>Pitbul</td>
+					<td>Bad Bunny</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿a que genero pertenecian originalmente los cuentos de los hermanos Grimm?</td>
+					<td>Hadas</td>
+					<td>Aventura</td>
+					<td>Drama</td>
+					<td>Terror</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Cual es el nombre de Picasso?</td>
+					<td>Pedro</td>
+					<td>Paco</td>
+					<td>Pablo</td>
+					<td>Juaquin</td>
+					<td>3</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿quien canta vivir mi vida?</td>
+					<td>Ricky Martin</td>
+					<td>Marc Anthony</td>
+					<td>Jay Z</td>
+					<td>Maluma</td>
+					<td>2</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿cuantos colores tiene un cubo rubick clasico?</td>
+					<td>10</td>
+					<td>8</td>
+					<td>4</td>
+					<td>6</td>
+					<td>4</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿Rowan Atkinson es famoso por interpretar a?</td>
+					<td>Mr. Bean</td>
+					<td>Homero Simpson</td>
+					<td>El chavo del 8</td>
+					<td>Barney</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+				<tr>
+					<td>¿que es un bit?</td>
+					<td>la unidad mas pequeña de almacenamiento</td>
+					<td>una escala musicañ</td>
+					<td>un remix de Maluma</td>
+					<td>Big Internet Time</td>
+					<td>1</td>
+					<td>&nbsp</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+
+</hmtl>

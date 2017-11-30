@@ -1,0 +1,802 @@
+<Questions>
+    <Q>
+    	<enun>¿en que año inicio la segunda guerra mundial?</enun>
+    	<op1>1945</op1>
+    	<op2>1940</op2>
+    	<op3>1939</op3>
+    	<op4>1928</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el lugar mas frio de la tierra?</enun>
+    	<op1>Antartica</op1>
+    	<op2>Antartida</op2>
+    	<op3>Argentina</op3>
+    	<op4>Canada</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el rio mas largo del mundo?</enun>
+    	<op1>El Nilo</op1>
+    	<op2>El Mississipi</op2>
+    	<op3>El Amazonas</op3>
+    	<op4>El Tiquicaca</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Quien pinto la ultima cena?</enun>
+    	<op1>Da Vinci</op1>
+    	<op2>Miguel Angel</op2>
+    	<op3>Raphael</op3>
+    	<op4>Van Gogh</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿Que pais gano el mundial de futbol el año 2014?</enun>
+    	<op1>Brasil</op1>
+    	<op2>Alemania</op2>
+    	<op3>Holanda</op3>
+    	<op4>Argentina</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el oceano mas grande del mundo?</enun>
+    	<op1>Atlantico</op1>
+    	<op2>Artico</op2>
+    	<op3>Antartico</op3>
+    	<op4>Pacifico</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿en que año llegó cristobal colon a America?</enun>
+    	<op1>1942</op1>
+    	<op2>1249</op2>
+    	<op3>1492</op3>
+    	<op4>1429</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿en que año acabó la segunda guerra mundial?</enun>
+    	<op1>1945</op1>
+    	<op2>1940</op2>
+    	<op3>1939</op3>
+    	<op4>1928</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el idioma oficial de Estados Unidos?</enun>
+    	<op1>Ingles</op1>
+    	<op2>Español</op2>
+    	<op3>Frances</op3>
+    	<op4>No tiene un idioma oficial</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cuantos numeros primos de un digito hay?</enun>
+    	<op1>1</op1>
+    	<op2>2</op2>
+    	<op3>3</op3>
+    	<op4>4</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿cual de las siguientes obras NO escribio William Shakespeare?</enun>
+    	<op1>El quijote de la mancha</op1>
+    	<op2>Romeo y Julieta</op2>
+    	<op3>Hamlet</op3>
+    	<op4>Macbeth</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿Quien tiene el album de musica mas vendido de toda la historia?</enun>
+    	<op1>AC/DC</op1>
+    	<op2>Michael Jackson</op2>
+    	<op3>Elvis Presly</op3>
+    	<op4>Bad Bunny</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es la capital de Croacia?</enun>
+    	<op1>Munich</op1>
+    	<op2>Bogota</op2>
+    	<op3>Zagreb</op3>
+    	<op4>Copenhague</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿cual es el metal mas caro del mundo?</enun>
+    	<op1>Oro</op1>
+    	<op2>Platino</op2>
+    	<op3>Plata</op3>
+    	<op4>Rodio</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el estadio del Real Madrid C.F.?</enun>
+    	<op1>Camp Nou</op1>
+    	<op2>Alianz Arena</op2>
+    	<op3>Old Trafford</op3>
+    	<op4>Santiago Bernabeu</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿cuantos corazones tiene un pulpo?</enun>
+    	<op1>3</op1>
+    	<op2>8</op2>
+    	<op3>1</op3>
+    	<op4>12</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿Quien es el Dios griego de la Guerra?</enun>
+    	<op1>Zeus</op1>
+    	<op2>Ares</op2>
+    	<op3>Odin</op3>
+    	<op4>Marte</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Quien escribio "el amor en los tiempos de colera"?</enun>
+    	<op1>Julio Cortazar</op1>
+    	<op2>Gabriel Garcia Marquez</op2>
+    	<op3>Juan Rulfo</op3>
+    	<op4>Pablo Neruda</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿en que año fue la caida del muro de Berlin?</enun>
+    	<op1>1980</op1>
+    	<op2>1990</op2>
+    	<op3>1989</op3>
+    	<op4>1979</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿segun la mitologia griega quien mata a Medusa?</enun>
+    	<op1>Hercules</op1>
+    	<op2>Perseo</op2>
+    	<op3>Poseidon</op3>
+    	<op4>Aquiles</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿En que libro Harry Potter Gana el torneo de los 3 magos?</enun>
+    	<op1>la piedra filosofal</op1>
+    	<op2>El principe mestizo</op2>
+    	<op3>la orden del fenix</op3>
+    	<op4>el caliz de fuego</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual de los siguientes animales pone huevos?</enun>
+    	<op1>Rinoceronte</op1>
+    	<op2>Ornitorrinco</op2>
+    	<op3>Ballena</op3>
+    	<op4>Delfin</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el apodo del actor Dwayne Jhonson?</enun>
+    	<op1>La roca</op1>
+    	<op2>La piedra</op2>
+    	<op3>El macho</op3>
+    	<op4>El mejor</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿Cuantos departamentos tiene Colombia?</enun>
+    	<op1>32</op1>
+    	<op2>56</op2>
+    	<op3>29</op3>
+    	<op4>42</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿Quien es apodado "El Rey del Rock'n Roll"?</enun>
+    	<op1>Elvis</op1>
+    	<op2>Michael Jackson</op2>
+    	<op3>Pele</op3>
+    	<op4>Freddie Mercury</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿en la serie de Netflix "Stranger Things" quew poderes tiene 11?</enun>
+    	<op1>Telepatia</op1>
+    	<op2>Super Fuerza</op2>
+    	<op3>Telequinesis</op3>
+    	<op4>Entriopia</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual de las siguientes peliculas, ganó el OScar a mejor pelicula en el año 2012?</enun>
+    	<op1>Whiplash</op1>
+    	<op2>The Artist</op2>
+    	<op3>The Revenant</op3>
+    	<op4>Dallas Buyers Club</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual de estas series se Emitió primero?</enun>
+    	<op1>Daredevil</op1>
+    	<op2>Jessica Jones</op2>
+    	<op3>Luke Cage</op3>
+    	<op4>Iron Fist</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es considerada la pelicula que inició el universo cinematografico de marvel MCU?</enun>
+    	<op1>Thor</op1>
+    	<op2>Los Vengadores</op2>
+    	<op3>Iron Man</op3>
+    	<op4>Capitan America</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿quien es "The fastest man alive"?</enun>
+    	<op1>Superman</op1>
+    	<op2>El correcaminos</op2>
+    	<op3>Quick Silver</op3>
+    	<op4>Flash</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿cual de estas series es la mas larga?</enun>
+    	<op1>Padres e hijos</op1>
+    	<op2>Los Simpsons</op2>
+    	<op3>Friends</op3>
+    	<op4>Casados Con hijos</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Quien es el director de "Bastardos Sin Gloria"?</enun>
+    	<op1>Gillermo del Toro</op1>
+    	<op2>Steven Spielberg</op2>
+    	<op3>Quentin Tarantino</op3>
+    	<op4>Ben Afleck</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual de las siguientes NO es una produccion de HBO?</enun>
+    	<op1>Juego de Tronos</op1>
+    	<op2>Vikingos</op2>
+    	<op3>Los Soprano</op3>
+    	<op4>West World</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿por cual de las siguientes peliculas, Tom Hanks ganó un Oscar?</enun>
+    	<op1>Salvando al soldado Ryan</op1>
+    	<op2>Naufrago</op2>
+    	<op3>Toy Story</op3>
+    	<op4>Forrest Gump</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el estilo de natacion mas rapido?</enun>
+    	<op1>Espalda</op1>
+    	<op2>Pecho</op2>
+    	<op3>Crol</op3>
+    	<op4>Mariposa</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Cuantos jugadores hay en un equipo de Rugby?</enun>
+    	<op1>15</op1>
+    	<op2>12</op2>
+    	<op3>10</op3>
+    	<op4>13</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿en que país se inventó el voleibol?</enun>
+    	<op1>Rusia</op1>
+    	<op2>Brasil</op2>
+    	<op3>Francia</op3>
+    	<op4>Estados Unidos</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual de los siguiente fue campeon de peso pesado de la UFC?</enun>
+    	<op1>Bruce Leee</op1>
+    	<op2>Brock Lesnar</op2>
+    	<op3>Dave Bautista</op3>
+    	<op4>Silvestre Stalone</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Cuanto dura un partido de fútbol?</enun>
+    	<op1>30 minutos</op1>
+    	<op2>45 minutos</op2>
+    	<op3>70 minutos</op3>
+    	<op4>90 minutos</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿que futbolista es conocido como "O Rei"?</enun>
+    	<op1>Pele</op1>
+    	<op2>Ronaldinho</op2>
+    	<op3>Neymar</op3>
+    	<op4>Messi</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿John Lennon fue cantante de que banda?</enun>
+    	<op1>The Rolling Stones</op1>
+    	<op2>The Smiths</op2>
+    	<op3>The Beatles</op3>
+    	<op4>The Eagles</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿quien es la mascota de Sega?</enun>
+    	<op1>Mario</op1>
+    	<op2>Ryu</op2>
+    	<op3>Zelda</op3>
+    	<op4>Sonic</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿que pokemon es considerado el Dios de los pokemon?</enun>
+    	<op1>Mew</op1>
+    	<op2>Lugia</op2>
+    	<op3>Pikachu</op3>
+    	<op4>Arceus</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es la ciudad mas vieja de America Latina?</enun>
+    	<op1>Caral</op1>
+    	<op2>Cartagena</op2>
+    	<op3>Arequipa</op3>
+    	<op4>Valparaiso</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿en que pais naciò Hitler?</enun>
+    	<op1>Alemania</op1>
+    	<op2>Austria</op2>
+    	<op3>Rusia</op3>
+    	<op4>Inglaterra</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿que se celebra el 8 de marzo?</enun>
+    	<op1>dia del trabajo</op1>
+    	<op2>dia de la mujer</op2>
+    	<op3>dia de la madre</op3>
+    	<op4>naviada</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿en donde surgió la democracia?</enun>
+    	<op1>Grecia</op1>
+    	<op2>Roma</op2>
+    	<op3>Italia</op3>
+    	<op4>Mesopotamia</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿quien ganó el nobel de la paz en el 2007?</enun>
+    	<op1>Alvaro Uribe</op1>
+    	<op2>Juan Manuel Santos</op2>
+    	<op3>Albert Einstein</op3>
+    	<op4>Albert Gore</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿en que pais naciò el protestantismo</enun>
+    	<op1>Inglaterra</op1>
+    	<op2>Alemania</op2>
+    	<op3>Estados Unidos</op3>
+    	<op4>Francia</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Donde vivia Ana Frank?</enun>
+    	<op1>Vienna</op1>
+    	<op2>Berlin</op2>
+    	<op3>Amsterdam</op3>
+    	<op4>Paris</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿en que año llegó el hombre a la luna?</enun>
+    	<op1>1968</op1>
+    	<op2>1983</op2>
+    	<op3>1954</op3>
+    	<op4>1969</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿en que año se abrió el canal de Panama?</enun>
+    	<op1>1914</op1>
+    	<op2>1920</op2>
+    	<op3>1889</op3>
+    	<op4>1893</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿en que siglo acaba la edad media?</enun>
+    	<op1>XIII</op1>
+    	<op2>XIV</op2>
+    	<op3>XV</op3>
+    	<op4>XVI</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿cuantos dias dura Hanukkah?</enun>
+    	<op1>3</op1>
+    	<op2>5</op2>
+    	<op3>7</op3>
+    	<op4>8</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿en que pais se encuentra la ciudad mas al sur del mundo?</enun>
+    	<op1>Chile</op1>
+    	<op2>Argentina</op2>
+    	<op3>Sudafrica</op3>
+    	<op4>Nueva Zalanda</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿en que pais esta el rio de los 7 colores?</enun>
+    	<op1>Argentina</op1>
+    	<op2>Venezuela</op2>
+    	<op3>Colombia</op3>
+    	<op4>Brasil</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Las islas Canarias reciben este nombre por?</enun>
+    	<op1>Aves</op1>
+    	<op2>Perros</op2>
+    	<op3>Peces</op3>
+    	<op4>el festival de Cannes</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿en que pais está la isla de Pascua?</enun>
+    	<op1>Chile</op1>
+    	<op2>Bolivia</op2>
+    	<op3>Perú</op3>
+    	<op4>Mexico</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿cual es el cervido de mayor tamaño?</enun>
+    	<op1>ciervo</op1>
+    	<op2>Corzo</op2>
+    	<op3>Alce</op3>
+    	<op4>ñu</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es la capital de Ecuador?</enun>
+    	<op1>Lima</op1>
+    	<op2>Buenos Aires</op2>
+    	<op3>Guayaquil</op3>
+    	<op4>Quito</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual de las siguientes enfermedades ataca al higado?</enun>
+    	<op1>Diabetes</op1>
+    	<op2>Artritis</op2>
+    	<op3>Hepatitis</op3>
+    	<op4>Glaucoma</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Cuantas caras tiene un icosaedro?</enun>
+    	<op1>20</op1>
+    	<op2>10</op2>
+    	<op3>30</op3>
+    	<op4>40</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿cual es el hueso mas pequeño del cuerpo humano?</enun>
+    	<op1>Femur</op1>
+    	<op2>Estribo</op2>
+    	<op3>Yunque</op3>
+    	<op4>Falange</op4>
+    	<resp>2</resp>
+    </Q>	
+<Q>
+    	<enun>¿que estudia la ictiologia?</enun>
+    	<op1>Peces</op1>
+    	<op2>Insectos</op2>
+    	<op3>Rocas</op3>
+    	<op4>Astros</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿cuantos estomagos tiene una vaca?</enun>
+    	<op1>1</op1>
+    	<op2>2</op2>
+    	<op3>3</op3>
+    	<op4>4</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿que tipo de mamifero es un conejo?</enun>
+    	<op1>Roedor</op1>
+    	<op2>Marsupial</op2>
+    	<op3>Lagomorfo</op3>
+    	<op4>Equino</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿que son las enzimas?</enun>
+    	<op1>células</op1>
+    	<op2>Glucidos</op2>
+    	<op3>Minerales</op3>
+    	<op4>Proteinas</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿cual de los siguientes animales no produce un sonido?</enun>
+    	<op1>gato</op1>
+    	<op2>girafa</op2>
+    	<op3>delfin</op3>
+    	<op4>mapache</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el simbolo quimico del sodio?</enun>
+    	<op1>Na</op1>
+    	<op2>So</op2>
+    	<op3>NA</op3>
+    	<op4>oS</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿cual es el mineral mas duro del planeta?</enun>
+    	<op1>Adamantio</op1>
+    	<op2>Cuarzo</op2>
+    	<op3>Diamante</op3>
+    	<op4>Granito</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿de que tiene forma italia?</enun>
+    	<op1>Gorro</op1>
+    	<op2>Bota</op2>
+    	<op3>Gallina</op3>
+    	<op4>Estrella</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿cuantos dientes de leche tenemos?</enun>
+    	<op1>20</op1>
+    	<op2>32</op2>
+    	<op3>25</op3>
+    	<op4>48</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿donde se celebra el Oktoberfest?</enun>
+    	<op1>Colombia</op1>
+    	<op2>Rusia</op2>
+    	<op3>Algeria</op3>
+    	<op4>Alemania</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Quien el autor de Mony Dick?</enun>
+    	<op1>Herman Melville</op1>
+    	<op2>Henry James</op2>
+    	<op3>Charles Dickens</op3>
+    	<op4>Henry Thoreau</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿en el mundo de Harry Potter como se le llama a un mago que no puede hacer magia?</enun>
+    	<op1>mundano</op1>
+    	<op2>muggle</op2>
+    	<op3>squib</op3>
+    	<op4>inutil</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Quien compuso la cancion "Bohemian Rhapsody"?</enun>
+    	<op1>Frank Sinatra</op1>
+    	<op2>Jhon Lennon</op2>
+    	<op3>David Bowie</op3>
+    	<op4>Freddie Mercury</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual de las siguientes razas es inmortal?</enun>
+    	<op1>los humanos</op1>
+    	<op2>los elfos</op2>
+    	<op3>los Hobbits</op3>
+    	<op4>Los enanos</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿cuantos capitulos tiene el coran?</enun>
+    	<op1>114</op1>
+    	<op2>120</op2>
+    	<op3>100</op3>
+    	<op4>124</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿quien escribio la novela "Maria"?</enun>
+    	<op1>Gabriel Garcia Marquez</op1>
+    	<op2>Jorge Isaacs</op2>
+    	<op3>Pablo Neruda</op3>
+    	<op4>Mario Vargas Llosa</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿cual de las siguientes no es una pelicula de stephen king?</enun>
+    	<op1>La niebla</op1>
+    	<op2>IT</op2>
+    	<op3>Carrie</op3>
+    	<op4>Psyco</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es considerado el peor videojuego de la historia?</enun>
+    	<op1>call of dutty</op1>
+    	<op2>minecraft</op2>
+    	<op3>E.T</op3>
+    	<op4>no man's sky</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿Hachiko era?</enun>
+    	<op1>Un Gato</op1>
+    	<op2>Un Perro</op2>
+    	<op3>Un Lobo</op3>
+    	<op4>UN Leon</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿que pais fue el primer campeon de la cupa del mundo?</enun>
+    	<op1>Brasil</op1>
+    	<op2>Argentina</op2>
+    	<op3>Alemania</op3>
+    	<op4>Uruguay</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿cual es la capital de Uruguay?</enun>
+    	<op1>Montevideo</op1>
+    	<op2>La Plata</op2>
+    	<op3>Buenos Aires</op3>
+    	<op4>Asuncion</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿en que deporte destacó Magic Jhonson?</enun>
+    	<op1>baseball</op1>
+    	<op2>basketball</op2>
+    	<op3>fútbol</op3>
+    	<op4>tennis</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿quien es considerado el mejor boxeador de la historia?</enun>
+    	<op1>Floyd Mayweather</op1>
+    	<op2>Rocky</op2>
+    	<op3>Muhamed Ali</op3>
+    	<op4>Homero Simpson</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿cuantos tiempos tiene un partido de basketball?</enun>
+    	<op1>4</op1>
+    	<op2>3</op2>
+    	<op3>2</op3>
+    	<op4>1</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿donde está la Conchinchina?</enun>
+    	<op1>China</op1>
+    	<op2>Japon</op2>
+    	<op3>Vietnam</op3>
+    	<op4>Camboya</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿cual es el ingrediente psicoactivo de la marihuana?</enun>
+    	<op1>LHC</op1>
+    	<op2>THC</op2>
+    	<op3>LCD</op3>
+    	<op4>PHP</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿cual de estos animales es responsable por mas personas muertas anualmente?</enun>
+    	<op1>Tiburon</op1>
+    	<op2>Leon</op2>
+    	<op3>Vaca</op3>
+    	<op4>Mosquito</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿que significa procastinar?</enun>
+    	<op1>predicar una religion</op1>
+    	<op2>presumir logros</op2>
+    	<op3>inventar datos</op3>
+    	<op4>posponer actividades</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿en que año murió Steve Jobs?</enun>
+    	<op1>2010</op1>
+    	<op2>2011</op2>
+    	<op3>2012</op3>
+    	<op4>2013</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿quien es considerado el padre del Heavy Metal?</enun>
+    	<op1>Jhon Lennon</op1>
+    	<op2>Elvis Presly</op2>
+    	<op3>Ozzy Osbourne</op3>
+    	<op4>LEmmy Kilmister</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿quien hizo la cancion del mundial 2010?</enun>
+    	<op1>Shakira</op1>
+    	<op2>Jennifer Lopez</op2>
+    	<op3>Pitbul</op3>
+    	<op4>Bad Bunny</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿a que genero pertenecian originalmente los cuentos de los hermanos Grimm?</enun>
+    	<op1>Hadas</op1>
+    	<op2>Aventura</op2>
+    	<op3>Drama</op3>
+    	<op4>Terror</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Cual es el nombre de Picasso?</enun>
+    	<op1>Pedro</op1>
+    	<op2>Paco</op2>
+    	<op3>Pablo</op3>
+    	<op4>Juaquin</op4>
+    	<resp>3</resp>
+    </Q>
+<Q>
+    	<enun>¿quien canta vivir mi vida?</enun>
+    	<op1>Ricky Martin</op1>
+    	<op2>Marc Anthony</op2>
+    	<op3>Jay Z</op3>
+    	<op4>Maluma</op4>
+    	<resp>2</resp>
+    </Q>
+<Q>
+    	<enun>¿cuantos colores tiene un cubo rubick clasico?</enun>
+    	<op1>10</op1>
+    	<op2>8</op2>
+    	<op3>4</op3>
+    	<op4>6</op4>
+    	<resp>4</resp>
+    </Q>
+<Q>
+    	<enun>¿Rowan Atkinson es famoso por interpretar a?</enun>
+    	<op1>Mr. Bean</op1>
+    	<op2>Homero Simpson</op2>
+    	<op3>El chavo del 8</op3>
+    	<op4>Barney</op4>
+    	<resp>1</resp>
+    </Q>
+<Q>
+    	<enun>¿que es un bit?</enun>
+    	<op1>la unidad mas pequeña de almacenamiento</op1>
+    	<op2>una escala musicañ</op2>
+    	<op3>un remix de Maluma</op3>
+    	<op4>Big Internet Time</op4>
+    	<resp>1</resp>
+    </Q>
+</Questions>

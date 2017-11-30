@@ -1,0 +1,110 @@
+@font-face {
+	font-family: "arial";
+	src: url("font/arial.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Kingdom";
+	src: url("font/KH.ttf") format("truetype");
+}
+.Arial{font-family:"arial";font-size:20px;}
+.KingdomH{font-family:"Kingdom";font-size: 80px;}
+
+#fondo{
+	width: 100%;
+	height: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 0;
+	background-color:#000000;
+}
+
+#fondo img {
+    width: 100%;
+    height: 100%;
+}
+
+#general {
+    z-index: 1;
+    position: absolute;
+}
+
+canvas{
+	background:url('img/continentes.jpg');
+	color:#ffffff;
+	border:2px solid;
+	border-color:#ffffff;
+	border-radius:15px;
+}
+
+#hearts{
+    background:white;
+}
+
+button {
+ border: none;
+ background: #9B7A59;
+ color: #EEE3C5;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ width: 150;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+}
+
+button:hover {
+ background: #EEE3C5;
+ color: #000000;
+ box-shadow: inset 0 0 0 3px #000000;
+}
+
+#pregunta{
+	font-family:"arial";
+	font-size:20px;
+}
+
+#popup {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.content-popup {
+    margin:0px auto;
+    margin-top:120px;
+    position:relative;
+    padding:10px;
+    width:500px;
+    min-height:250px;
+    border-radius:25px;
+    background:url('img/fondo.jpg');
+    box-shadow: 0 2px 5px #666666;
+}
+
+.content-popup h2 {
+    color:#48484B;
+    border-bottom: 1px solid #48484B;
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+
+.popup-overlay {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display:none;
+    background-color: #777777;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+}
