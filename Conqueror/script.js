@@ -70,7 +70,7 @@ function run(){
 
 function asignar(){
 	//seleccion aleatoria de la pregunta de la tabla oculta, con sus opciones y respuesta respectiva
-	var n = Math.floor((Math.random() * 100) + 1);
+	var n = Math.floor((Math.random() * 200) + 1);
 	//alert(document.getElementById("preguntas").rows.length);
 	
 	var linea = document.getElementById("preguntas").rows;

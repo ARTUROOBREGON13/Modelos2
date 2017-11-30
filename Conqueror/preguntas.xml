@@ -799,4 +799,903 @@
     	<op4>Big Internet Time</op4>
     	<resp>1</resp>
     </Q>
+	<Q>
+<enun>¿cual es la ciudad conocida como la capital del mundo?</enun>
+<op1>new york</op1>
+<op2>tokio</op2>
+<op3>moscu</op3>
+<op4>paris</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el lugar mas frio de la tierra?</enun>
+<op1>finlandia</op1>
+<op2>groenlandia</op2>
+<op3>la antartida</op3>
+<op4>la patagonia</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿quien escribio la Odisea?</enun>
+<op1>platon</op1>
+<op2>homero</op2>
+<op3>Hipocrates</op3>
+<op4>Hector</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿cual es la capital de mongolia?</enun>
+<op1>Burkina Faso</op1>
+<op2>Xinan</op2>
+<op3>Ulan Bator</op3>
+<op4>Vietnam</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el rio mas largo del mundo?</enun>
+<op1>el nilo</op1>
+<op2>el amazonas</op2>
+<op3>el magdalena</op3>
+<op4>el amarillo</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿en que continente esta ecuador?</enun>
+<op1>Asia</op1>
+<op2>America</op2>
+<op3>Oceania</op3>
+<op4>Africa</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿como se llama la reina del reino unido?</enun>
+<op1>Isabel I</op1>
+<op2>Cristina IV</op2>
+<op3>Ana Bolena</op3>
+<op4>Isabel II</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿Que tipo de animal es la ballena?</enun>
+<op1>vertebrado</op1>
+<op2>acuatico</op2>
+<op3>mamifero</op3>
+<op4>volador</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿que cantidad de huesos tiene el cuerpo humano?</enun>
+<op1>134</op1>
+<op2>300</op2>
+<op3>220</op3>
+<op4>206</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿en que año acabo la segunda guerra mundial?</enun>
+<op1>1945</op1>
+<op2>1939</op2>
+<op3>1965</op3>
+<op4>1923</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿Quien es el autor del Quijote?</enun>
+<op1>Fernando de Rojas</op1>
+<op2>Miguel de cervantes</op2>
+<op3>Gonzalo jimenez de quesada</op3>
+<op4>Gabriel Garcia marquez</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿quien pinto la ultima cena?</enun>
+<op1>DaVinci</op1>
+<op2>Miguel Angel</op2>
+<op3>Dahli</op3>
+<op4>Warhol</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿en que ciudad se encuentra la sagrada familia?</enun>
+<op1>Roma</op1>
+<op2>Vaticano</op2>
+<op3>Barcelona</op3>
+<op4>Madrid</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el oceano mas grande?</enun>
+<op1>pacifico</op1>
+<op2>atlantico</op2>
+<op3>indico</op3>
+<op4>baltico</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿en que año llego colon a america?</enun>
+<op1>1372</op1>
+<op2>1492</op2>
+<op3>1768</op3>
+<op4>1810</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿Quien es el padre del psicoanalisis?</enun>
+<op1>Ortega y Gasset</op1>
+<op2>Descartes</op2>
+<op3>Piaget</op3>
+<op4>Freud</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿Cual es el disco mas vendido de la historia?</enun>
+<op1>Back in Black</op1>
+<op2>Dark side of the moon</op2>
+<op3>Thriller</op3>
+<op4>The Wall</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿que producto se cultiva mas en guatemala?</enun>
+<op1>maiz</op1>
+<op2>cafe</op2>
+<op3>flores</op3>
+<op4>tomate</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿En que se especializa la cartografia?</enun>
+<op1>los museos</op1>
+<op2>las cartas</op2>
+<op3>los mapas</op3>
+<op4>las estrellas</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿Cual es el pais mas grande del mundo?</enun>
+<op1>Rusia</op1>
+<op2>EEUU</op2>
+<op3>China</op3>
+<op4>Australia</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿Cual es el tercer planeta mas cercano al sol?</enun>
+<op1>Mercurio</op1>
+<op2>La tierra</op2>
+<op3>Venus</op3>
+<op4>Marte</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿Que pais tiene forma de bota?</enun>
+<op1>india</op1>
+<op2>reino unido</op2>
+<op3>italia</op3>
+<op4>Guatemala</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿Cual es la moneda de reino unido?</enun>
+<op1>La libra</op1>
+<op2>El euro</op2>
+<op3>las pesetas</op3>
+<op4>Dolares</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿Cual es el pais mas poblado de la tierra?</enun>
+<op1>Rusia</op1>
+<op2>EEUU</op2>
+<op3>India</op3>
+<op4>China</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿Que organo produce la insulina?</enun>
+<op1>Higado</op1>
+<op2>Riñones</op2>
+<op3>Pancreas</op3>
+<op4>Apendice</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿Que color representa la esperanza?</enun>
+<op1>azul</op1>
+<op2>verde</op2>
+<op3>blanco</op3>
+<op4>rojo</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿como se llama el himno nacional de francia?</enun>
+<op1>marsellesa</op1>
+<op2>sous le ciel de paris</op2>
+<op3>la vie en rose</op3>
+<op4>france</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿de que estilo arquitectonico es la catedral de notre dame?</enun>
+<op1>Baltico</op1>
+<op2>Rustico</op2>
+<op3>Gotico</op3>
+<op4>Barroco</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿Cuantas patas tiene una araña?</enun>
+<op1>6</op1>
+<op2>9</op2>
+<op3>10</op3>
+<op4>8</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿cual es la ciudad de los rascacielos?</enun>
+<op1>Dubai</op1>
+<op2>Paris</op2>
+<op3>New York</op3>
+<op4>Chicago</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿a que pais pertenecen los cariocas?</enun>
+<op1>portugal</op1>
+<op2>brasil</op2>
+<op3>korea</op3>
+<op4>colombia</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿de que pais es el futbolista zlatan Ibrahimovic?</enun>
+<op1>suiza</op1>
+<op2>ucrania</op2>
+<op3>suecia</op3>
+<op4>alemania</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿cual es la lengua oficial de china?</enun>
+<op1>chino</op1>
+<op2>japones</op2>
+<op3>taiwanes</op3>
+<op4>mandarin</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿en que pais se encuentra el famoso Taj Mahal?</enun>
+<op1>India</op1>
+<op2>Indonesia</op2>
+<op3>taiwan</op3>
+<op4>China</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿cual fue el primer metal empleado por el hombre?</enun>
+<op1>acero</op1>
+<op2>hierro</op2>
+<op3>cobalto</op3>
+<op4>cobre</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿quien era el general de los nazis en la segunda guerra mundial?</enun>
+<op1>Stalin</op1>
+<op2>Hitler</op2>
+<op3>Musolini</op3>
+<op4>Pinochet</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿como se llama la estacion espacial rusa?</enun>
+<op1>varishmikov</op1>
+<op2>dragunov</op2>
+<op3>MIR</op3>
+<op4>OSC</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿Cual es el primer numero primo?</enun>
+<op1>0</op1>
+<op2>1</op2>
+<op3>5</op3>
+<op4>2</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿como se le llama a la coleccion de periodicos,articulos y publicaciones periodicas?</enun>
+<op1>biblioteca</op1>
+<op2>hemeroteca</op2>
+<op3>perioditeca</op3>
+<op4>museo</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el unico mamifero con la capacidad de volar?</enun>
+<op1>murcielago</op1>
+<op2>aguila</op2>
+<op3>alcon</op3>
+<op4>cuervo</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el libro sagrado del islam?</enun>
+<op1>biblia</op1>
+<op2>coran</op2>
+<op3>necromicon</op3>
+<op4>deux</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿que es el concorde?</enun>
+<op1>un plato </op1>
+<op2>un idioma</op2>
+<op3>un avion</op3>
+<op4>una raza de perro</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿que equipo gano el mundial 2014?</enun>
+<op1>Argentina</op1>
+<op2>Brasil</op2>
+<op3>Italia</op3>
+<op4>Alemania</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿quien escribio Hamlet?</enun>
+<op1>Shakespeare</op1>
+<op2>Roal dahl</op2>
+<op3>Copernico</op3>
+<op4>Lewis carroll</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿a que pais pertenece la ciudad de varsovia?</enun>
+<op1>Ucrania</op1>
+<op2>polonia</op2>
+<op3>eslovenia</op3>
+<op4>Rusia</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿cual es la nacionalidad de pablo neruda?</enun>
+<op1>español</op1>
+<op2>uruguayo</op2>
+<op3>argentino</op3>
+<op4>chileno</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿quien compuso "Tears in heaven"?</enun>
+<op1>BB king</op1>
+<op2>ray charles</op2>
+<op3>eric clapton</op3>
+<op4>billy joel</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿a quien le crecia la nariz cuando mentia?</enun>
+<op1>cenicienta</op1>
+<op2>pinocho</op2>
+<op3>blanca nieves</op3>
+<op4>pepe grillo</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿la campana de Gauss esta asociada a?</enun>
+<op1>probabilidad</op1>
+<op2>matematicas discretas</op2>
+<op3>investigacion de operaciones</op3>
+<op4>estadistica</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿quien traiciono a Jesus?</enun>
+<op1>Maria magdalena</op1>
+<op2>pablo</op2>
+<op3>pedro</op3>
+<op4>Judas</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿de que estado fue emperador napoleon bonaparte?</enun>
+<op1>Inglaterra</op1>
+<op2>francia</op2>
+<op3>italia</op3>
+<op4>españa</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿como se llama el proceso mediante el cual las plantas obtienen alimento?</enun>
+<op1>oxigenacion</op1>
+<op2>alimentacion</op2>
+<op3>fotosintesis</op3>
+<op4>secrecion</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿que dia celebran los cristianos la epifania de jesus?</enun>
+<op1>6 de enero</op1>
+<op2>14 de abril</op2>
+<op3>24 de diciembre</op3>
+<op4>12 de octubre</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿cual es la capital de croacia?</enun>
+<op1>pirpiat</op1>
+<op2>stalingrado</op2>
+<op3>chernobyl</op3>
+<op4>zagreb</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿como se llama el triangulo cuyos tres lados son iguales?</enun>
+<op1>isoceles</op1>
+<op2>escaleno</op2>
+<op3>equilatero</op3>
+<op4>rectangulo</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿cual es la capital de dinamarca?</enun>
+<op1>sofia</op1>
+<op2>copenhague</op2>
+<op3>eslovenia</op3>
+<op4>bruselas</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿de que lengua proviene el español?</enun>
+<op1>romance</op1>
+<op2>germanico</op2>
+<op3>arabe</op3>
+<op4>latin</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿quien es el presidente de españa?</enun>
+<op1>rey juan carlos</op1>
+<op2>principe felipe</op2>
+<op3>rajoy</op3>
+<op4>zapatero</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿en que ciudad cayo la primer bomba atomica?</enun>
+<op1>Hiroshima</op1>
+<op2>Pripiat</op2>
+<op3>Nagasaky</op3>
+<op4>Chernobyl</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el metal mas caro del mundo?</enun>
+<op1>plata</op1>
+<op2>oro</op2>
+<op3>platino</op3>
+<op4>rodio</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿cuantos años tiene un lustro?</enun>
+<op1>3</op1>
+<op2>5</op2>
+<op3>1</op3>
+<op4>2</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿donde se encuentra la capa de ozono?</enun>
+<op1>estratosfera</op1>
+<op2>ionosfera</op2>
+<op3>atmosfera</op3>
+<op4>litosfera</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿quien sabia que no sabia nada?</enun>
+<op1>socrates</op1>
+<op2>platon</op2>
+<op3>aristoteles</op3>
+<op4>eraclito</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿en que pais se encuentra la universidad de cambridge?</enun>
+<op1>estados unidos</op1>
+<op2>Reino unido</op2>
+<op3>Australia</op3>
+<op4>Singapur</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿en que año empezo la primera guerra mundial?</enun>
+<op1>1910</op1>
+<op2>1923</op2>
+<op3>1909</op3>
+<op4>1914</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿que deporte practica Roger Federer?</enun>
+<op1>ping pong</op1>
+<op2>atletismo</op2>
+<op3>tenis</op3>
+<op4>futbol</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿Cual es la capital de francia?</enun>
+<op1>tropez</op1>
+<op2>marsella</op2>
+<op3>bilbao</op3>
+<op4>paris</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿en que ciudad se encuentra el estadio Wembley?</enun>
+<op1>Tottenham</op1>
+<op2>Londres</op2>
+<op3>Chelsea</op3>
+<op4>Edimburg</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿que instrumento tocaba paco de lucia?</enun>
+<op1>Guitarra</op1>
+<op2>Piano</op2>
+<op3>Harpa</op3>
+<op4>Bateria</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿como se llama la accion de subir una bandera?</enun>
+<op1>banderear</op1>
+<op2>izar</op2>
+<op3>subir</op3>
+<op4>honrar patria</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿como se llama el estadio del fc Barcelona?</enun>
+<op1>Santiago Bernabeu</op1>
+<op2>Mestalla</op2>
+<op3>Camp nou</op3>
+<op4>Monumental</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿que enfermedad padece stephen hawking?</enun>
+<op1>cancer</op1>
+<op2>parkinson</op2>
+<op3>alzhaimer</op3>
+<op4>esclerosis lateral</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿en que año se aprobo la actual constitucion española?</enun>
+<op1>1991</op1>
+<op2>1978</op2>
+<op3>1934</op3>
+<op4>1999</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿que es un ebook?</enun>
+<op1>un libro electronico</op1>
+<op2>un alinenigena</op2>
+<op3>un personaje de star wars</op3>
+<op4>un personaje de star trek</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿en que isla esta situado el Teide?</enun>
+<op1>Margarita</op1>
+<op2>Gorgona</op2>
+<op3>Canarias</op3>
+<op4>San Andres</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el ave voladora mas grande?</enun>
+<op1>gavilan</op1>
+<op2>aguila calva</op2>
+<op3>avestruz</op3>
+<op4>condor andino</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el ave voladora mas pesada?</enun>
+<op1>aguila calva</op1>
+<op2>avutarda kori</op2>
+<op3>condor andino</op3>
+<op4>ruiseñor</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿en que año salio al mercado el primer juego protagonizado por super mario?</enun>
+<op1>1979</op1>
+<op2>1981</op2>
+<op3>1980</op3>
+<op4>1985</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿en que juego hizo su primer aparicion super mario?</enun>
+<op1>super mario bros</op1>
+<op2>yoshi island</op2>
+<op3>donkey kong</op3>
+<op4>super smash bros</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿cual ha sido la consola de video juegos menos vendida de la historia?</enun>
+<op1>nintendo jaguar</op1>
+<op2>nintendo wii u</op2>
+<op3>sega arcade</op3>
+<op4>sega genesis</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿cual ha sido la consola de video juegos mas vendida?</enun>
+<op1>play station x</op1>
+<op2>x box</op2>
+<op3>x box 360</op3>
+<op4>play station 2</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el pais con mas camellos salvajes?</enun>
+<op1>nigeria</op1>
+<op2>chad</op2>
+<op3>australia</op3>
+<op4>egipto</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el idioma mas antiguo que sobrevive en europa?</enun>
+<op1>vasco</op1>
+<op2>aleman</op2>
+<op3>español</op3>
+<op4>ruso</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿cuantos corazones tiene un pulpo?</enun>
+<op1>5</op1>
+<op2>2</op2>
+<op3>1</op3>
+<op4>3</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el unico animal inmortal?</enun>
+<op1>las cucarachas</op1>
+<op2>la medusa</op2>
+<op3>las tortugas</op3>
+<op4>el pez espada</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el pais con mas porcentaje de budistas?</enun>
+<op1>Camboya</op1>
+<op2>India</op2>
+<op3>Vietnam</op3>
+<op4>Indonesia</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿hace cuanto se extinguieron los mamuts?</enun>
+<op1>3000 años</op1>
+<op2>4000 años</op2>
+<op3>8000 años</op3>
+<op4>1000000 años</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿cual es la capital de bolivia?</enun>
+<op1>chiclayo</op1>
+<op2>huancayo</op2>
+<op3>sucre</op3>
+<op4>la paz</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿protagonista de la serie de peliculas "Rocky"?</enun>
+<op1>Mario Baracus</op1>
+<op2>Apolo creed</op2>
+<op3>Ivan Drago</op3>
+<op4>silvester stallone</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿tercer decimal del numero pi ?</enun>
+<op1>4</op1>
+<op2>3</op2>
+<op3>2</op3>
+<op4>1</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿quien escribio el cristo de espaldas?</enun>
+<op1>Fernando de rojas</op1>
+<op2>Eduardo Caballero Calderon</op2>
+<op3>Gabriel Garcia Marquez</op3>
+<op4>German Castro Caicedo</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>al baterista de esta banda le hace falta un brazo</enun>
+<op1>metallica</op1>
+<op2>cindirella</op2>
+<op3>mr big</op3>
+<op4>def lepard</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿en que agrupacion cantaba justin timberlake?</enun>
+<op1>backstreet boys</op1>
+<op2>uff</op2>
+<op3>NSYNC</op3>
+<op4>new kids on the block</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿en que banda tocaba jimmy hendrix?</enun>
+<op1>psicodelia</op1>
+<op2>lsd</op2>
+<op3>18 and live</op3>
+<op4>the jimmy hendrix experience</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿nombre del vocalista de la banda colombiana "kraken"?</enun>
+<op1>jose andrea</op1>
+<op2>elkin ramirez</op2>
+<op3>juan perez</op3>
+<op4>esteban losada</op4>
+<resp>2</resp>
+</Q>
+
+<Q>
+<enun>¿escritor de cronica de una muerte anunciada?</enun>
+<op1>Gabriel Garcia Marquez</op1>
+<op2>German Castro Caicedo</op2>
+<op3>Mario Mendoza</op3>
+<op4>Andres Caicedo</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>¿creador de la saga star wars?</enun>
+<op1>Leonard nimoy</op1>
+<op2>Stan lee</op2>
+<op3>George Lucas</op3>
+<op4>Jack kirby</op4>
+<resp>3</resp>
+</Q>
+
+<Q>
+<enun>¿director de la trilogia de el caballero de la noche?</enun>
+<op1>M Knight shamalan</op1>
+<op2>Steven spilberg</op2>
+<op3>Michael bay</op3>
+<op4>Christopher Nohlan</op4>
+<resp>4</resp>
+</Q>
+
+<Q>
+<enun>¿cual es el animal mas rapido del mundo?</enun>
+<op1>guepardo</op1>
+<op2>cheeta</op2>
+<op3>tigre</op3>
+<op4>gacela</op4>
+<resp>1</resp>
+</Q>
+
+<Q>
+<enun>escritor de charlie y la fabrica de chocolates</enun>
+<op1>lewis carroll</op1>
+<op2>roal dalh</op2>
+<op3>quentin blake</op3>
+<op4>robert de niro</op4>
+<resp>2</resp>
+</Q>
 </Questions>
