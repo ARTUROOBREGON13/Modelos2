@@ -30,20 +30,8 @@ function inicio(){
 	
 	$('#NJuego').click(function(){
 		$('#contenido').css("display","inline");
-		//inicio de la rutina
 		run();
 	});
-}
-
-function run(){
-	vidas = 3;					//el jugador tiene 3 vidas
-	banderas=[false,false,false,false,false,false,false];	//el jugador no ha conquistado ningun continente al inicio del juego
-	$('#vidas').css("display","inline");
-	reset();
-	continente = 0;
-	respuesta = 0;
-	canvas = document.getElementById("lienzo");
-	flagD = document.getElementById("flag");
 	//asignacion de funciones a los botones laterales
 	$('#opc1').click(function(){
 		revisar(0);
@@ -66,6 +54,19 @@ function run(){
 	$('#opc7').click(function(){
 		revisar(6);
 	});
+	//asignacion de la variable canvas y de la imagen de la bandera.
+	canvas = document.getElementById("lienzo");
+	flagD = document.getElementById("flag");
+}
+
+function run(){
+	vidas = 3;					//el jugador tiene 3 vidas
+	banderas=[false,false,false,false,false,false,false];	//el jugador no ha conquistado ningun continente al inicio del juego
+	$('#vidas').css("display","inline");  //mostrar contador de vidas
+	reset();
+	continente = 0;
+	respuesta = 0;
+	
 }
 
 function asignar(){
@@ -133,9 +134,11 @@ function reset(){
 	//revision de que el jugador no haya perdido
 	if(vidas == 0){
 		alert("Has perdido!");
+		clean();
 		$('#contenido').css("display","none");
+		
 		//recarga la pagina para evitar errores logicos
-		location.reload(true);
+		//location.reload(true);
 	}else{
 		//asignacion de valores iniciales.
 		document.getElementById("pregunta").innerHTML="¿Cual sera el siguiente continente a conquistar?";
@@ -193,9 +196,17 @@ function reset(){
 		
 		if(win){
 			alert("Has conquistado el mundo! Enhorabuena!");
+			clean();
 			$('#contenido').css("display","none");
 			//recarga la pagina para evitar errores logicos
-			location.reload(true);
+			//location.reload(true);
 		}
 	}
+}
+
+function clean(){
+	//limpia el canvas y quita las banderas de los paises conquistados anteriormente
+	aux = canvas.getContext("2d");
+	aux.clearRect(0, 0, 900, 500);
+	$('#vidas').css("display","none");  //ocultar contador de vidas
 }
